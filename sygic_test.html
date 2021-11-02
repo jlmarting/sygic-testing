@@ -1,0 +1,77 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test intents Sygic</title>
+    <style>
+        .card {
+            margin: 1em auto;
+            width: 300px;
+            border: 1px solid gray;
+            padding: 1 em;
+            background-color: yellow
+        }
+        .card > a, .card > span{
+            display: block
+        }
+        .card > a{
+            padding: 1em;
+        }
+        
+        .card > span{
+            background-color: yellowgreen;
+        }
+
+
+
+    </style>
+</head>
+<body>
+
+    <body>
+
+
+        <div class="card">
+            <span>Donostia (Miramón) Latitud: 43.288394 | Longitud: -1.981635</span>
+            <a href="com.sygic.aura://coordinate|-1.981635|43.288394|show">Sygic show</a>
+            <a href="com.sygic.aura://coordinate|-1.981635|43.288394|drive">Sygic navigate to</a>
+
+        </div>
+        
+        <div class="card">
+            <span>Bilbao, País Vasco, España Latitud: 43.263002 | Longitud: -2.935004</span>
+            <a href="com.sygic.aura://coordinate|-2.935004|43.263002|show">Sygic show</a>
+            <a href="com.sygic.aura://coordinate|-2.935004|43.263002|drive">Sygic navigate to</a>
+        </div>
+
+
+       <div class="card">
+            <a href="com.sygic.aura://coordinate|-3.600167727784707|40.49325666733678|show">Aeropuerto Madrid</a>
+        </div>
+
+       
+	
+	<div class="card">
+            <a href="com.sygic.aura://truckSettings|mxs=80&len=8000&wid=2450&hei=3450&axw=1200&wei=15000&rou=tru">Truck</a>
+            <a href="com.sygic.aura://truckSettings|mxs=120&len=4000&wid=2150&hei=1550&axw=1200&wei=1100&rou=car">CAR</a>
+        </div>
+
+        <div class="card">
+            <a href="com.sygic.aura://coordinate|-2.935004|43.263002|drive"> Drive - Bilbao</a>
+            <a href="com.sygic.aura://coordinate|-3.600167727784707|40.49325666733678|Drive"> Drive - Aeropuerto Madrid</a>
+        </div>
+
+
+
+
+
+
+      </body>
+
+
+
+    
+</body>
+</html>
