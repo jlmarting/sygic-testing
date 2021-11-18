@@ -1,5 +1,5 @@
 {
-    "timeStamp": "2015-06-28T16:10:37Z",
+    "timeStamp": "2021-11-18T09:16:37Z",
     "numVisited": 1,
     "numUnvisited": 2,
     "numPredictedLateArrivals": 0,
@@ -9,58 +9,58 @@
     "distanceRemaining": 8610,
     "waypoints":
     [{
-            "lon":  1711468,
-            "lat":  4813110,
+            "lon":  -3.8099719,
+            "lat":  43.4620412,
             "type": "start",
             "waypointId":   1,
             "hitRadius":    200,
             "timeWindow":
             {
-                "startTime":  "2015-06-28T16:00Z",
-                "endTime":  "2015-06-28T16:30Z",
+                "startTime":  "2021-10-28T16:00Z",
+                "endTime":  "2021-12-28T16:30Z",
                 "stopDelay":  180
             },
             "realtimeStatus":
             {
-                "status":  "visited",
+                "status":  "unvisited",
                 "edited":  false
             }
     }, {
-            "lon":  1713067,
-            "lat":  4816062,
+            "lon":  -5.8448989,
+            "lat":  43.3605977,
             "type":  "via",
             "waypointId":  2,
             "hitRadius":  200,
             "timeWindow":
             {
-                "startTime":  "2015-06-28T16:15Z",
-                "endTime":  "2015-06-28T16:30Z",
+               "startTime":  "2021-10-28T16:00Z",
+                "endTime":  "2021-12-28T16:30Z",
                 "stopDelay":  180
             },
             "realtimeStatus":
             {
                 "status":  "unvisited",
-                "estimatedTimeArrival": "2015-06-28T16:19:25Z",
+                "estimatedTimeArrival": "2021-12-28T16:19:25Z",
                 "timeRemaining":  528,
                 "distanceRemaining":  5018,
                 "edited":  false
             }
     }, {
-            "lon":  1710000,
-            "lat":  4814722,
+            "lon":  -8.7247205,
+            "lat":  42.2376602,
             "type": "finish",
             "waypointId":   3,
             "hitRadius":    200,
             "timeWindow":
             {
-                "startTime":  "2015-06-28T17:00Z",
-                "endTime":  "2015-06-28T17:30Z",
+                "startTime":  "2021-10-28T16:00Z",
+                "endTime":  "2021-12-28T16:30Z",
                 "stopDelay":  180
             },
             "realtimeStatus":
             {
                 "status":  "unvisited",
-                "estimatedTimeArrival":  "2015-06-28T16:29:29Z",
+                "estimatedTimeArrival":  "2021-31-28T16:29:29Z",
                 "timeRemaining":  1132,
                 "distanceRemaining":  8610,
                 "edited":  false
