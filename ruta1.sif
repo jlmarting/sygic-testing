@@ -1,0 +1,69 @@
+{
+    "timeStamp": "2015-06-28T16:10:37Z",
+    "numVisited": 1,
+    "numUnvisited": 2,
+    "numPredictedLateArrivals": 0,
+    "numPredictedEarlyArrivals": 1,
+    "timeRemaining": 1312,
+    "distancePassed": 0,
+    "distanceRemaining": 8610,
+    "waypoints":
+    [{
+            "lon":  1711468,
+            "lat":  4813110,
+            "type": "start",
+            "waypointId":   1,
+            "hitRadius":    200,
+            "timeWindow":
+            {
+                "startTime":  "2015-06-28T16:00Z",
+                "endTime":  "2015-06-28T16:30Z",
+                "stopDelay":  180
+            },
+            "realtimeStatus":
+            {
+                "status":  "visited",
+                "edited":  false
+            }
+    }, {
+            "lon":  1713067,
+            "lat":  4816062,
+            "type":  "via",
+            "waypointId":  2,
+            "hitRadius":  200,
+            "timeWindow":
+            {
+                "startTime":  "2015-06-28T16:15Z",
+                "endTime":  "2015-06-28T16:30Z",
+                "stopDelay":  180
+            },
+            "realtimeStatus":
+            {
+                "status":  "unvisited",
+                "estimatedTimeArrival": "2015-06-28T16:19:25Z",
+                "timeRemaining":  528,
+                "distanceRemaining":  5018,
+                "edited":  false
+            }
+    }, {
+            "lon":  1710000,
+            "lat":  4814722,
+            "type": "finish",
+            "waypointId":   3,
+            "hitRadius":    200,
+            "timeWindow":
+            {
+                "startTime":  "2015-06-28T17:00Z",
+                "endTime":  "2015-06-28T17:30Z",
+                "stopDelay":  180
+            },
+            "realtimeStatus":
+            {
+                "status":  "unvisited",
+                "estimatedTimeArrival":  "2015-06-28T16:29:29Z",
+                "timeRemaining":  1132,
+                "distanceRemaining":  8610,
+                "edited":  false
+            }
+        }]
+}
